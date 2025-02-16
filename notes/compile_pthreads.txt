@@ -1,0 +1,4 @@
+gcc -pthread Solver_pthreads.c -o Solver_pthreads.exe
+
+Solver_pthreads.exe 8
+

@@ -1,0 +1,4 @@
+gcc -fopenmp Solver_OpenMP.c -o Solver_OpenMP.exe
+
+Solver_OpenMP.exe 8
+

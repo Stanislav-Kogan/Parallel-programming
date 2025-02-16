@@ -1,0 +1,3 @@
+gcc -I"C:\Program Files (x86)\Microsoft SDKs\MPI\Include" -L"C:\Program Files (x86)\Microsoft SDKs\MPI\Lib\x64" Solver_MPI.c -lmsmpi -o Solver_MPI.exe
+
+mpiexec -n 4 Solver_MPI.exe 
